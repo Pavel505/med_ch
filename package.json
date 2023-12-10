@@ -1,0 +1,29 @@
+{
+  "name": "med_ch",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Script #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PaPich",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavel505/med_ch.git"
+  },
+  "keywords": [
+    "med"
+  ],
+  "bugs": {
+    "url": "https://github.com/Pavel505/med_ch/issues"
+  },
+  "homepage": "https://github.com/Pavel505/med_ch#readme"
+}

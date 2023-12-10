@@ -1,0 +1,50 @@
+#progress-bar {
+    width: 500px;
+    height: 20px;
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    margin: 50px auto;
+   }
+ 
+   #progress {
+    height: 100%;
+    background-color: rgb(18, 184, 18);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: progress-bar;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+   }
+
+   .button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #12486b;
+    color: #dcfaff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+  .label{
+    margin: 50px auto;
+    position: absolute;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+   /* автоматическая анимация ключевых кадров с помощью CSS
+    @keyframes progress-bar {
+    from {width: 0;}
+    to {width: 100%;}
+   }
+   */
